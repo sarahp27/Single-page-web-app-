@@ -53,6 +53,8 @@ body {
   .nav img{
     width: 20px;
     height: 20px;
+    padding-right: 10px;
+    padding-top: 10px;
   }
 
   
@@ -89,22 +91,33 @@ body {
   
   }
 
-  section form button{
+  /* section form button{
     background-color: #fff;
     border: none;
     color: #2b8da1;
     font-size: 20px;
     border-radius: 7px none;
-    padding: 16px 32px;
+    padding: 16px 32px;k
     text-decoration: none;
 
-
+  } */
+  button{
+    background-color: lightgray;
+    color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+    /* padding: 12px 70px; */
+    border: 1px solid rgb(245, 238, 238);
+    padding: 8px 19px;
   }
+  
+
+  button:hover{
+    background-color: green;
+    opacity: 90%;
+  }
+
   
   h1, h2 {
     margin: 0;
-  }
-
-  img{
-
   }

@@ -3,7 +3,7 @@
 }
 
 .container{
-  /* display: grid; */
+  
   grid-template-columns: 1fr 5fr 2fr;
   grid-template-rows: 5fr 20fr 5fr;
 }
@@ -24,38 +24,42 @@ body {
     grid-column-end: 4;
   }
   
-  nav {
+  .nav {
     background-color: #e9ebee;
     padding: 10px;
-  }
+    display: flex;
+    flex-direction: column;
+    }
   
-  nav ul {
+  .nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: space-around;
-  }
+    flex-direction: row; 
+    justify-content: space-around;  
+  } 
   
-  nav li {
+  .nav li {
     margin-right: 10px;
 
   }
   
-  nav a {
+  .nav a {
     color: #385898;
     text-decoration: none;
   }
-  
-  nav a:hover {
-    color: #fff;
-    background-color: #2b8da1;
-    padding: 10px;
-    border-radius: 5px;
+
+  .nav img{
+    width: 20px;
+    height: 20px;
   }
+
+  
 
   .column{
     display: flex;
+    justify-content: space-evenly;
     color: #fff;
     margin: 10px;
   }
@@ -69,11 +73,14 @@ body {
   }
   
   section {
-    background-color: #2b8da1;
+    background-color: #5BA4DF;
     margin-bottom: 10px;
     padding: 20px;
     width: 50%;
     border-radius:20px;
+    display: flex;
+    margin: 10px;
+    flex-direction: column;
   }
 
   section form input {
@@ -96,4 +103,8 @@ body {
   
   h1, h2 {
     margin: 0;
+  }
+
+  img{
+
   }
